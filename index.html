@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h2>Formulario 1</h2>
+    </header>
+    <main>
+        <table width="68%">
+            <tr>
+                <td>
+                    <p>
+                        Tratamiento: *
+                    <input type="radio" name="hm" value="h">Sr.
+                    <input type="radio" name="hm" value="m">Sra.
+                    </p>
+                </td>
+                <td>
+                    <p>
+                    Nombre:*
+                    <input type="text" name="nombre" >
+                    </p>
+                </td>
+                <td>
+                    Apellido 1:*
+                    <input type="text" name="Apellido1">
+                </td>
+                <td>
+                    Apellido 2:*
+                    <input type="text" name="Apellido2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Tipo Doc:*
+                    <select name="documento" required>
+                        <option value="DNI">DNI</option>
+                        <option value="NIF">NIF</option>
+                        <option value="Pasaporte">Pasaporte</option>
+                    </select>
+                </td>
+                <td>
+                    Nº Doc:*
+                    <input type="text" name="N_Doc">
+                </td>
+                <td>
+                    Fecha de nacimiento:*
+                    <input type="date" name="fecha_nacimiento">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  Pais de nacimiento:*
+                  <select name="documento" required>
+                        <option value="España">ESPAÑA</option>
+                        <option value="">NIF</option>
+                        <option value="Pasaporte">Pasaporte</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
