@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilos.css">
     <title>Formulario</title>
 </head>
 <body>
@@ -11,6 +11,7 @@
         <h2>Formulario 1</h2>
     </header>
     <main>
+        <section>
         <table width="68%">
             <tr>
                 <td>
@@ -199,6 +200,44 @@
                 </td>
             </tr>
         </table>
-    </main>
+        </section>
+        <hr>
+        <section>
+            <p>Para ofrecer un mejor servicio nos sería útil conocer si posee en otra entidad:</p>
+            <p>
+                <input type="radio" name="servicio" value="plan_de_pensiones">Plan de pensiones
+                <input type="radio" name="servicio" value="Telefono_particular">Telefono particular
+                <input type="radio" name="servicio" value="Acciones">Acciones
+                <input type="radio" name="servicio" value="Hipoteca">Hipoteca
+                <input type="radio" name="servicio" value="prestamo">Préstamo
+                <input type="radio" name="servicio" value="Seguro_de_vida">Seguro de vida              
+            </p>
+        </section>
+        <hr>
+        <section>
+            <p>Puede consultar en nuestra Web o solicitamos toda la informacion precontractual de nuestros productos. Al pulsar "Continuar" está aceptando la Cláusula de Protección de datos.</p>
+            <p>(*) Los campos marcados con asteriscos son obligatorios.</p>
+        </section>
+        <section>
+            <h2>Formulario 2</h2>
+            <img src="img/cuenta_nomina.png" alt="cuneta_nomima" height="100px" width="200px">
+            <br>
+            <table>
+                <tr>
+                    <td>
+                        E-mail:*
+                        <input type="text" name="E-mail">
+                    </td>
+                    <td>
+                        DNI o Tarjeta de residencia:*
+                        <input type="text" name="DNI">
+                    </td>
+                    <td>
+                        <input type="date" name="Fecha_nacimeinto">
+                    </td>
+                </tr>
+            </table>
+        </section>
+        </main>
 </body>
 </html>
